@@ -30,7 +30,17 @@ function isNotEmpty(value) {
 }
 
 async function writeToFile(fileName, data) {
-    const content = "";
+    let content = `# ${data.title.trim()}\n\n`;
+    content += `![GitHub](https://img.shields.io/github/license/${data.username.trim()}/${data.title.trim()})\n\n`;
+    content += `## Description\n\n${data.description.trim()}\n\n`;
+    content += `## Table of Contents\n
+* [Installation](#installation)
+* [Usage](#usage)
+* [License](#license)
+* [Contributing](#contributing)
+* [Tests](#tests)
+* [Questions](#questions)\n\n`;
+
     await fs.writeFile(fileName, content);
 }
 
