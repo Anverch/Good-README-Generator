@@ -1,3 +1,4 @@
+const fs = require("fs").promises;
 const inquirer = require('inquirer');
 
 const questions = [{
@@ -28,10 +29,14 @@ function isNotEmpty(value) {
     }
 }
 
-function writeToFile(fileName, data) {}
+async function writeToFile(fileName, data) {
+    const content = "";
+    await fs.writeFile(fileName, content);
+}
 
 async function init() {
     const userInput = await inquirer.prompt(questions);
+    await writeToFile("README2.md", userInput);
 }
 
 init();
