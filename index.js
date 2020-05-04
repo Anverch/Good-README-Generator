@@ -36,7 +36,7 @@ async function writeToFile(fileName, data) {
 
 async function init() {
     const userInput = await inquirer.prompt(questions);
-    await writeToFile("README2.md", userInput);
+    await writeToFile("./output/README.md", userInput);
 }
 
 init();
