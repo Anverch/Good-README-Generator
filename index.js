@@ -9,6 +9,12 @@ const questions = [{
     },
     {
         type: "input",
+        message: "What is your Github email?",
+        name: "email",
+        validate: value => isNotEmpty(value)
+    },
+    {
+        type: "input",
         message: "What is your project title?",
         name: "title",
         validate: value => isNotEmpty(value)
@@ -25,12 +31,11 @@ const questions = [{
         name: "installation",
         validate: value => isNotEmpty(value)
     },
-    // {
-    //     type: "input",
-    //     message: "What is the usage?",
-    //     name: "usage"
-    //     //validate: value => isNotEmpty(value)
-    // },
+    {
+        type: "input",
+        message: "How do you use this?",
+        name: "usage"
+    },
     {
         type: "list",
         message: "Provide license name",
@@ -79,7 +84,7 @@ const writeToFile = async (fileName, data) => {
 To install necessary dependencies, run the following command:
 \`${data.installation.trim()}\`\n
 ## Usage\n
-
+${data.usage.trim()}\n
 ## License\n
 This project is licensed under the ${data.license.trim()} license\n
 ## Contributing\n
@@ -89,7 +94,7 @@ To run test, run the following command:\n
 \`${data.test.trim()}\`\n
 ## Questions\n
 <img src="https://avatars.githubusercontent.com/${data.username.trim()}" style="width: 40px; hight:40px; border-radius:100%;">\n
-If you have any questions about the repo, open an issue or contact ${data.username.trim()} directly at null`;
+If you have any questions about the repo, open an issue or contact ${data.email.trim()}.`;
 
     await fs.writeFile(fileName, content);
 }
