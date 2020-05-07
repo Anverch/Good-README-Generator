@@ -11,7 +11,7 @@ function generateMarkdown(data) {
   * [Tests](#tests)
   * [Questions](#questions)\n
   ## Installation\n
-  To install necessary dependencies, run the following command:
+  To install necessary dependencies, run the following command:\n
   \`${data.installation.trim()}\`\n
   ## Usage\n
   ${data.usage.trim()}\n

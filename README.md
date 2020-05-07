@@ -1,7 +1,7 @@
 
   # Portfolio
 
-  ![GitHub](https://img.shields.io/github/license/anverch/Portfolio)
+  ![GitHub](https://img.shields.io/github/license/Anverch/Portfolio)
 
   ## Description
 
@@ -19,11 +19,12 @@ About me
   ## Installation
 
   To install necessary dependencies, run the following command:
+
   `npm i`
 
   ## Usage
 
-  test
+  I don't know
 
   ## License
 
@@ -41,6 +42,6 @@ About me
 
   ## Questions
 
-  <img src="https://avatars.githubusercontent.com/anverch" style="width: 40px; hight:40px; border-radius:100%;">
+  <img src="https://avatars.githubusercontent.com/Anverch" style="width: 40px; hight:40px; border-radius:100%;">
 
   If you have any questions about the repo, open an issue or contact anverch@gmail.com.
