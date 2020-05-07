@@ -1,99 +1,46 @@
-# Unit 09 Node.js and ES6+ Homework: Good README Generator
 
-Create a command-line application that dynamically generates a README.md from a user's input. The application will be invoked with the following command:
+  # Portfolio
 
-```sh
-node index.js
-```
+  ![GitHub](https://img.shields.io/github/license/anverch/Portfolio)
 
-The user will be prompted for their GitHub username and other information pertaining to the project the README is for.
+  ## Description
 
-The README will be populated with the following:
+About me
 
-* At least one badge
-* Project title
-* Description
-* Table of Contents
-* Installation
-* Usage
-* License
-* Contributing
-* Tests
-* Questions
-  * User GitHub profile picture
-  * User GitHub email
+  ## Table of Contents
 
-Following the [common templates for user stories](https://en.wikipedia.org/wiki/User_story#Common_templates), we can frame this challenge as follows:
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [License](#license)
+  * [Contributing](#contributing)
+  * [Tests](#tests)
+  * [Questions](#questions)
 
-```
-AS A developer
+  ## Installation
 
-I WANT a README generator
+  To install necessary dependencies, run the following command:
+  `npm i`
 
-SO THAT I can easily put together a good README for a new project
-```
+  ## Usage
 
-Refer to the [Good README guide](../../01-HTML-Git-CSS/04-Supplemental/Good-README-Guide/README.md).
+  test
 
-## Business Context
+  ## License
 
-When creating an open source project on GitHub, it is important to have a quality README with information about the app--what is the app for, how to use the app, how to install it, how to report issues, and how to make contributions so that other developers are more likely to use and contribute to the success of the project. A command-line application will allow for quick and easy generation of a project README to get started quickly. This will allow a project creator to spend more time working on finishing the project and less time creating a good README.
+  This project is licensed under the GPL license
 
-## Minimum Requirements
+  ## Contributing
 
-* Functional, deployed application.
+  Alex
 
-* GitHub repository with a unique name and a README describing project.
+  ## Tests
 
-* The generated README includes the following sections: 
-  * Title
-  * Description
-  * Table of Contents
-  * Installation
-  * Usage
-  * License
-  * Contributing
-  * Tests
-  * Questions
+  To run test, run the following command:
 
-* The generated README includes 1 badge that's specific to the repository.
+  `test`
 
-```
-GIVEN the developer has a GitHub profile and a repository
+  ## Questions
 
-WHEN prompted for the developer's GitHub username and repo specific information
+  <img src="https://avatars.githubusercontent.com/anverch" style="width: 40px; hight:40px; border-radius:100%;">
 
-THEN a README for the repo is generated
-```
-- - -
-
-## Commit Early and Often
-
-One of the most important skills to master as a web developer is version control. Building the habit of committing via Git is important for two reasons:
-
-* Your commit history is a signal to employers that you are actively working on projects and learning new skills.
-
-* Your commit history allows you to revert your code base in the event that you need to return to a previous state.
-
-Follow these guidelines for committing:
-
-* Make single-purpose commits for related changes to ensure a clean, manageable history. If you are fixing two issues, make two commits.
-
-* Write descriptive, meaningful commit messages so that you and anyone else looking at your repository can easily understand its history.
-
-* Don't commit half-done work, for the sake of your collaborators (and your future self!).
-
-* Test your application before you commit to ensure functionality at every step in the development process.
-
-We would like you to have more than 200 commits by graduation, so commit early and often!
-
-## Submission on BCS
-
-You are required to submit the following:
-
-* A video demonstrating the entirety of the app's functionality 
-
-* A generated README.md file for a project repo.
-
-* The URL of the GitHub repository
-
+  If you have any questions about the repo, open an issue or contact anverch@gmail.com.

@@ -77,7 +77,7 @@ const writeToFile = async (fileName, data) => {
 
 async function init() {
     const userInput = await inquirer.prompt(questions);
-    await writeToFile("./output/README.md", userInput);
+    await writeToFile("README.md", userInput);
 }
 
 init();
